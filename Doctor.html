@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content= "width=device width,initial scale=0.1">
+<title>Doctor</title>
+<link rel="stylesheet" href="doctor.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+           <nav>
+           <div class="search-bar">
+           <form action="">
+           <input type="text" placeholder="Search Health Problem">
+           <button type="submit"><img src="./search.jpeg" id="search-img" width="15px" height="15px"></button>
+               </form>
+               </div>
+            <img src="./time.png" id="carticon" width="70px" height="70px">
+            <ul id="Menuitems">
+                <li><a href="loginas.html">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="signin.html">Account</a></li>
+
+
+            </ul>
+        </nav>
+    <img src="./menu.jpeg" class="menu" onclick="menutoggle()">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                <div class="row">
+                <div class="col-3">
+            <img src="./logo.jpeg" width="200px">
+                    </div>
+                    <div class="col-3">
+                        <h3 class="head">E-Health Checkup</h3>
+                    </div>
+                    <div class="col-3">
+                        <img src="./images.png" width="70px" height="150px" id="ins">
+                    </div>
+                    <div class="row">
+                    <div class="col-1">
+                        <img src="./1.jpg" width="600px" height="300px">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class= "login">
+            <div class="small container">
+               <h2 class="title"><a href="loginas.html">LOG-IN</a></h2>
+            </div>
+            </div>
+        <div class="row">
+                    <div class="col-2">
+            <h1> Be Fit Grow Fit</h1>
+            <h7 class="h7"> Services </h7>
+            <br>With a vision of deliver affordable and world class tertiary healthcare services we help you save precious time and money with a simple, 24x7 online booking facility for our outdoor clinic, absolutely free of cost. Get your check up and tests done on the same day as your doctor consultance.</br>
+        </div>
+        <div class="col-2">
+            </div>
+             <div class="row">
+                <div class="col-1">
+                    <img src="./select.jpeg" id="txt" width="250px"  height="249px">
+                </div>
+            </div>
+
+            <div class="container">
+        <div class="row">
+            <div class="col-2">
+               <a href="SpecialistTeam.html" target="_blank">
+                   <img src="men.jpeg"></a>
+                   </div>
+            <div class="col-2">
+               <a href="list.html" target="_blank">
+                   <img src="list.jpeg"></a>
+            </div>
+            <div class="col-2">
+               <a href="watch.html" target="_blank">
+                   <img src="watch.jpeg"></a>
+            </div>
+               <div class="col-2">
+               <a href="ambulance.html" target="_blank">
+                   <img src="ambulance.jpeg"></a>
+            </div>
+        <div class= "categories">
+            <div class="small container">
+               <h2 class="title">Featured Categories</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <p><a href="Doctorlist.html" class="btn">PSYCHOLOGY &#8594</a></p>
+
+                    </div>
+<div class="col-4">
+                        <p><a href="Doctorlist.html" class="btn">DERMATOLOGY &#8594</a></p>
+                             </div>
+ <div class="col-4">
+                        <p><a href="Doctorlist.html" class="btn">DENTAL &#8594</a></p>
+                             </div>
+                             <div class="col-4">
+                        <p><a href="Doctorlist.html" class="btn">MEDICINE &#8594</a></p>
+                             </div>
+                             <div class="col-4">
+                                 <p><a href="Doctorlist.html" class="btn">DIET &#8594</a></p>
+                             </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!------------footer------------->
+        <div class="footer">
+        <div class="conatainer">
+        <div class="row">
+            <div class="footer-col-1">
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="./playstore.jpeg" width="50px" height="40px">
+                     <img src="./appstore.jpeg" width="50px" height="40px">
+                </div>
+            </div>
+                <div class="footer-col-2">
+                <img src="dctr%20logo.jpeg">
+                <p> Our purpose is to make an user friendly web and app. So that all of them can reach to the best opportunity and best facilities and make it accescible and feasible to the many. </p>
+                </div>
+            <div class="ul">
+            <h5>Useful Links</h5>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Affiliate</li>
+                </ul>
+            </div>
+            <div class="h5">
+                <h5>Follow Us</h5>
+                <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+            </div>
+        </div>
+<hr>
+    <div class="copyright">
+    <p> Copyright-2022-BRAINWARE UNIVERSITY</p>
+    </div>
+           <!---------js for toggle menu---------->
+       <script>
+             var MenuItems=document.getElementById(“MenuItems”);
+            MenuItems.style.maxHeight=”0px”;
+            function menutoggle(){
+               if(MenuItems.style.maxHeight==”0px”)
+              {
+                    MenuItems.style.maxHeight=”200px”;
+              }
+              else
+              {
+                   MenuItems.style.maxHeight=”0px”;
+              }
+           }
+      </script>
+
+        </body>
+    </html>
